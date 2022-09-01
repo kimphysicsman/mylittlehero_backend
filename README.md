@@ -243,7 +243,14 @@ history = model.fit(
 > 사용자 이메일과 저장 시간을 파일 이름으로 하여 이미지 파일을 저장  
 > [코드 보러가기](https://github.com/kimphysicsman/mylittlehero_backend/blob/master/functions/common.py#L50)
 
+<br />
 
+### 4. 닮은 마블 캐릭터 추천
+> 입력받은 이미지 주소로 저장한 이미지를 불러와서 전처리 후 학습 시킨 모델로 예측, 예측 확률이 높은 순으로 정렬하여 반환  
+> [코드 보러가기](https://github.com/kimphysicsman/mylittlehero_backend/blob/master/functions/model.py#L21)
+
+
+<br />
 
 # 📕 기타 자료
 
